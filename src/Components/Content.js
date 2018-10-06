@@ -68,12 +68,12 @@ export default class Content extends React.Component {
 					console.log("sleep_quality:"+sleep_quality_status)
 				}
 
-				var totla_muscle_soreness = totla_muscle_soreness + muscle_soreness_int;
-				var totla_sleep_quality = totla_sleep_quality + sleep_quality_int;
+				totla_muscle_soreness = totla_muscle_soreness + muscle_soreness_int;
+				totla_sleep_quality = totla_sleep_quality + sleep_quality_int;
 				cards.push(
 					<div key={athlete} className="col">
 						<div className="card">
-						<img className="card-img-top card-avatar" src="http://profilepicturesdp.com/wp-content/uploads/2018/06/default-profile-picture-circle-8.png" alt="Card image cap"></img>
+						<img className="card-img-top card-avatar" src="http://profilepicturesdp.com/wp-content/uploads/2018/06/default-profile-picture-circle-8.png" alt="profile pic"></img>
 							<div className="card-body">
 								<h3 className="card-name">{athlete}</h3>
 								<div className="details">
