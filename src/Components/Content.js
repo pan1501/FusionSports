@@ -73,7 +73,7 @@ export default class Content extends React.Component {
 				cards.push(
 					<div key={athlete} className="col">
 						<div className="card">
-						<img className="card-img-top card-avatar" src="http://profilepicturesdp.com/wp-content/uploads/2018/06/default-profile-picture-circle-8.png" alt="profile pic"></img>
+						<img className="card-img-top card-avatar" src="./profile.png" alt="profile pic"></img>
 							<div className="card-body">
 								<h3 className="card-name">{athlete}</h3>
 								<div className="details">
